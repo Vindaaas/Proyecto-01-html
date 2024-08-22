@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vindaaas">
+    <meta name="keywords" content="html, cafetería, etiquetas, paginas, video, img">
+    <meta name="description" lang="es" content="Pagina de blog de café"> 
+    <title>BlogDeCafé</title>
+</head>
+<body>
+    <!--Header de la pagina con su respectiva información-->
+    <header>
+        <br>
+        <a href="#Inicio"><img src="Img/Logo.png" Salt="LogoTipo"></a>
+        <h1 align="Center">Blog de Café con consejos y Cursos</h1>
+        <h3 align="center">Aprende de los expertos con las mejores recetas y consejos</h3>
+        <!--Menú de Navegación-->
+        <nav>
+            <ul>
+                <li id="#Incio"><a href="/Index.html" target="_blank">Inicio</a></li>
+                <li id="#Nosotros"><a href="Nosotros">Nosotros</a></li>
+                <li id="#Cursos"><a href="Cursos">Cursos</a></li>
+                <li id="#Contacto"><a href="Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <img src="Img/banner.jpg" alt="Banner de Fondo para el header">
+    </header><br><br>
+    <!--Parte principal de la pagina-->
+    <main>
+        <h2 align="center">Contacto</h2>
+        <img src="Img/contacto.jpg" alt="Imagen de fondo para contacto" width="2000" height="500">
+        <!--Formulario Nombre-->
+        <form action="/Enviar Formulario" method="post">
+        <div class="formulario"><br>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" name="Nombre" required minlength="3" maxlength="30" placeholder="Tu Nombre">
+        </div>
+        <!--Formulario E-Mail-->
+        <div class="formulario"><br>
+            <label for="E-Mail">E-Mail:</label>
+            <input type="text" id="E-Mail" name="E-Mail" required minlength="3" maxlength="30" placeholder="Tu Correo Electrónico">
+        </div>
+        <!--Formulario Mensaje-->
+        <div class="formulario"><br>
+            <label for="Mensaje">Mensaje:</label>
+            <textarea name="Mensaje" id="Mensaje" required minlength="10" maxlength="500" placeholder="Escriba aquí su mensaje"></textarea>
+        </div>
+        <!--Boton de Enviar-->
+        <input type="submit" value="Enviar">
+    </form>
+    </main>
+    <!--Pie de pagina con información y menu de navegación-->
+    <footer>
+        <hr>
+    <img src="Img/Logo.png" alt="LogoTipo">
+    <p align="center">Elaboración de hojas de Estilos- GACC &COPY;</p>
+    <nav>
+        <ul>
+            <li id="#Incio"><a href="/Index.html" target="_blank">Inicio</a></li>
+                <li id="#Nosotros"><a href="Nosotros">Nosotros</a></li>
+                <li id="#Cursos"><a href="Cursos">Cursos</a></li>
+                <li id="#Contacto"><a href="Contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    </footer>
+</body>
+</html>
